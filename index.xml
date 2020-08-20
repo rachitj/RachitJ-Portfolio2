@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Rachit J</title>
+    <link>https://github.com/rachitj/RachitJ-Portfolio-2/</link>
+    <description>Recent content in Data Science Portfolio on Rachit J</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Aug 2020 11:00:59 -0400</lastBuildDate>
+    
+	<atom:link href="https://github.com/rachitj/RachitJ-Portfolio-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project 3 : E-commerce Orders Revenue Analysis</title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-3/</link>
+      <pubDate>Mon, 10 Aug 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-3/</guid>
+      <description>Description &amp;ldquo;Company X&amp;rdquo; sells cannabis online via their e-commerce Shopify platform. To fulfill their reporting requirements, the Company X Finance department asks you to create a report so they can process their Q1 financial results. This exercise is a simplified view, focused on the Shopify orders in Q1. Link to GitHub Repository
+Objective:  To provide a dashboard to the Finance department about the sales results for Q1. Analyze the data and present any insights Automate the code and structure of data  Data Orders data : The dump is a JSON array that contains orders, following this structure:  Order ID Customer ID Name Email Total Order price Creation date Line items.</description>
+    </item>
+    
+    <item>
+      <title>Project 2: Salary Predictor for Analytics Professionals in Canada</title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-2/</link>
+      <pubDate>Thu, 30 Jul 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-2/</guid>
+      <description>Description Analytics is one of the most exciting roles in current times. Using data to tell stories is a huge plus for companies. There are different kind of roles in analytics field such as Data Analyst, Data Scientist, Machine Learning Engineer, Data Engineer etc. As their job-roles and responsibilities vary, their salary also varies. Though all these roles require expertise in technologies like R, Python, SQL, Excel, Machine Learning, Deep Learning, API development, Visualization( Tableau and Power BI), Web Scraping etc.</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Housing-Prices-Prediction</title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-1/</link>
+      <pubDate>Mon, 20 Jul 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-1/</guid>
+      <description>Ask a home buyer to describe their dream house, and they probably won&amp;rsquo;t begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition&amp;rsquo;s dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.</description>
+    </item>
+    
+    <item>
+      <title>Project 5: Power BI Model for Regional Sales Managers and Decision Makers </title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-5/</link>
+      <pubDate>Thu, 10 Aug 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-5/</guid>
+      <description>This model provided real time information such as Products and Customers Segmentation, Sales and Profit Metrics, Churn (Revenue and Customers) as well as Forecasts.
+ Created data pipelines in SQL and Data cubes Wrote DAX in Power Query Created Dashboards for Sales and Churn Metrics Tools and Technologies: Power Bi, MS SQL Server, DAX Note: As this is my real-time project in a professional work environment, I am unable to post any code due to confidentiality issues  </description>
+    </item>
+    
+    <item>
+      <title>Project 4: Operation Analytics for a Healthcare Provider</title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-4/</link>
+      <pubDate>Mon, 10 Aug 2015 11:00:59 -0400</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/post/project-4/</guid>
+      <description>The focus of our project was to analyze the comparison of the four units namely -MBU, Medical, Surgical and Telemetry for Bon Secours in Norfolk, Virginia.
+Objective: To Provide analysis and findings for each unit, a brief summary for each unit to look at areas of improvement and key insights, and the overall recommendations
+Analysis: I evaluated variables such as turnover, HCAHPS scores, shift length and used our visit to the hospital and comments from nurses and various workers to piece together a picture of what is going on with Bon Secours.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://github.com/rachitj/RachitJ-Portfolio-2/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/rachitj/RachitJ-Portfolio-2/contact/</guid>
+      <description>   Platform URL     LinkedIn: https://www.linkedin.com/in/rjauhari/   GitHub: https://github.com/rachitj   Tableau Public: https://public.tableau.com/profile/rachitjauhari#!/    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Project 3 : E-commerce Orders Revenue Analysis | Rachit J</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="https://github.com/rachitj/RachitJ-Portfolio-2/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Project 3 : E-commerce Orders Revenue Analysis" />
+<meta property="og:description" content="A tool to provide a dashboard to the Finance department about the sales results for Q1 " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/rachitj/RachitJ-Portfolio-2/post/project-3/" />
+<meta property="article:published_time" content="2020-08-10T11:00:59-04:00" />
+<meta property="article:modified_time" content="2020-08-10T11:00:59-04:00" />
+<meta itemprop="name" content="Project 3 : E-commerce Orders Revenue Analysis">
+<meta itemprop="description" content="A tool to provide a dashboard to the Finance department about the sales results for Q1 ">
+<meta itemprop="datePublished" content="2020-08-10T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2020-08-10T11:00:59-04:00" />
+<meta itemprop="wordCount" content="523">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Project 3 : E-commerce Orders Revenue Analysis"/>
+<meta name="twitter:description" content="A tool to provide a dashboard to the Finance department about the sales results for Q1 "/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://github.com/rachitj/RachitJ-Portfolio-2/images/ecommerce-logo.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://github.com/rachitj/RachitJ-Portfolio-2/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Rachit J
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/rachitj/RachitJ-Portfolio-2/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/rachitj/RachitJ-Portfolio-2/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://github.com/rachitj/RachitJ-Portfolio-2/post/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/rjauhari/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/rachitj" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 3 : E-commerce Orders Revenue Analysis</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A tool to provide a dashboard to the Finance department about the sales results for Q1 
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+
+
+    
+    <a href="https://www.linkedin.com/in/rjauhari/" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+
+    
+    <a href="https://github.com/rachitj" class="github no-underline" aria-label="share on Github">
+      <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Project 3 : E-commerce Orders Revenue Analysis</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-08-10T11:00:59-04:00">August 10, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="description">Description</h2>
+<p>&ldquo;Company X&rdquo; sells cannabis online via their e-commerce Shopify platform. To fulfill their reporting requirements, the Company X Finance department asks you to create a report so they can process their Q1 financial results. This exercise is a simplified view, focused on the Shopify orders in Q1.
+<a href="https://github.com/rachitj/ecommerce_transactions_project">Link to GitHub Repository</a></p>
+<h2 id="objective">Objective:</h2>
+<ul>
+<li>To provide a dashboard to the Finance department about the sales results for Q1.</li>
+<li>Analyze the data and present any insights</li>
+<li>Automate the code and structure of data</li>
+</ul>
+<h2 id="data">Data</h2>
+<h3 id="orders-data--the-dump-is-a-json-array-that-contains-orders-following-this-structure">Orders data : The dump is a JSON array that contains orders, following this structure:</h3>
+<ul>
+<li>Order ID</li>
+<li>Customer</li>
+<li>ID</li>
+<li>Name</li>
+<li>Email</li>
+<li>Total Order price</li>
+<li>Creation date</li>
+<li>Line items. For each one:
+<ul>
+<li>ID</li>
+<li>Product ID</li>
+<li>Product SKU</li>
+<li>Product Name</li>
+<li>Price
+To keep it simple, we removed taxes, discounts. Note also that all prices are in USD (US Dollars).</li>
+</ul>
+</li>
+</ul>
+<h3 id="exchange-rates-data">Exchange Rates Data</h3>
+<p>We would like you to consolidate your orders along with an exchange rate for the date of the order creations. This way, orders prices can be unified in Canadian Dollars (CAD), the currency that the Finance department uses to report on.
+For this purpose, we use the free currency exchange rate API provided by: <a href="https://exchangeratesapi.io/">https://exchangeratesapi.io/</a></p>
+<h2 id="steps">Steps:</h2>
+<h3 id="step-1--get-the-relevant-orders-data-from-orderjson-file-in-data_collectionipynb-file">Step 1 : Get the relevant orders data from order.json file in data_collection.ipynb file</h3>
+<ul>
+<li>In this step, we have extracted the orders data from order.json file.</li>
+<li>The orders data is in a nested dictionary format.</li>
+<li>Extract the orders data in 3 different dataframes namely :
+<ul>
+<li>df_orders : Summary of orders</li>
+<li>df_customers : Information about customers</li>
+<li>df_line_items : Line item details</li>
+</ul>
+</li>
+<li>The main idea is to think data in terms of data modelling. Once we get the dimensions and facts, based on the requirements and context, we can determeine if we should
+<ul>
+<li>Create a star schema</li>
+<li>Create a snowflake schema</li>
+<li>Create a fact that shows data in tabular format and that can be used as a table in Tableau dashboards</li>
+</ul>
+</li>
+</ul>
+<h3 id="step-2--get-the-relevant-exchange-rates-data-from-api-in-data_collectionipynb-file">Step 2 : Get the relevant exchange rates data from api in data_collection.ipynb file</h3>
+<ul>
+<li>Extract the exchange rates data in df_line_items</li>
+<li>We have assumed all transactions time zone is EDT for Toronto,Canada</li>
+<li>Performed data cleaning</li>
+</ul>
+<h3 id="step-3--export-the-data-to-sql-tables-in-data_modelsipynb-file">Step 3 : Export the data to SQL tables in data_models.ipynb file</h3>
+<ul>
+<li>In this step, we have cleaned data for any duplicates.</li>
+<li>Created a SQL Server connection. Note : Please change the connnection string values as per your system</li>
+<li>Created SQL tables and inserted the pandas dataframes data into these SQL tables:
+<ul>
+<li>orders</li>
+<li>customers</li>
+<li>line_items</li>
+<li>exchange_rates</li>
+</ul>
+</li>
+</ul>
+<h3 id="step-4--creation-of-fact_sales-in-sql-server-2019">Step 4 : Creation of fact_sales in SQL Server 2019</h3>
+<ul>
+<li>As the data is not large enough, we are creating a &lsquo;sales_fact&rsquo; that will store the data in tabular format, which can then be accessed through any BI tool.</li>
+<li>sales_fact SQL query and CSV data is provided here</li>
+<li>Note : The main challenge was to map the exchange rates to order-dates as for some days, exchange rates are not provided due to holidays or weekends. So a correct mapping needs to be done</li>
+<li>Checked for duplicates and data quality</li>
+</ul>
+<h3 id="step-5--create-interactive-tableau-dashboards">Step 5 : Create interactive tableau dashboards</h3>
+<ul>
+<li><a href="https://public.tableau.com/profile/rachitjauhari#!/vizhome/e-commerce_analysis/Q1Dashboard?publish=yes">Q1 Analysis Tableau Link</a></li>
+<li><a href="https://public.tableau.com/profile/rachitjauhari#!/vizhome/e-commerce_analysisMonthly/MonthlyDashboard?publish=yes">Monthly Analysis Tableau Link</a></li>
+</ul>
+<figure>
+    <img src="https://github.com/rachitj/RachitJ-Portfolio-2/images/q1_analysis.png"/> <figcaption>
+            <h4>Q1 Analysis of Orders</h4>
+        </figcaption>
+</figure>
+
+<figure>
+    <img src="https://github.com/rachitj/RachitJ-Portfolio-2/images/monthly_analysis.png"/> <figcaption>
+            <h4>Monthly Analysis of Orders</h4>
+        </figcaption>
+</figure>
+
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://github.com/namasteTechnologies/data-analyst-challenge">https://github.com/namasteTechnologies/data-analyst-challenge</a></li>
+<li><a href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.etftrends.com%2Fmulti-asset-channel%2Fnew-report-says-ecommerce%2F&amp;psig=AOvVaw1H08IUAO8NjM2h5WsOiK5o&amp;ust=1597211503110000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCODr8Ni6kusCFQAAAAAdAAAAABAK">https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fwww.etftrends.com%2Fmulti-asset-channel%2Fnew-report-says-ecommerce%2F&amp;psig=AOvVaw1H08IUAO8NjM2h5WsOiK5o&amp;ust=1597211503110000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCODr8Ni6kusCFQAAAAAdAAAAABAK</a></li>
+</ul>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://github.com/rachitj/RachitJ-Portfolio-2" >
+    &copy;  Rachit J 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/rjauhari/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/rachitj" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="https://github.com/rachitj/RachitJ-Portfolio-2/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
